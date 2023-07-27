@@ -1,0 +1,8 @@
+fastapi[all]
+pymongo[srv]
+python-dotenv
+
+#fastapi[all] and pymongo[srv] specify that in addition to the core fastapi and pymongo packages, you also want to install the extras named all and srv, respectively.
+#fastapi[all] means you are installing FastAPI along with all its optional dependencies (extras), which includes packages like aiofiles (for file handling), python-multipart (for form data handling), itsdangerous (for session cookie support), and more.
+#pymongo[srv] means you're installing PyMongo along with the extra package dnspython which is required for MongoDB SRV connection strings (a specific type of connection string).
+#The extras a package offers are defined in its setup.py file, and you can usually find a list of them in the package's documentation.

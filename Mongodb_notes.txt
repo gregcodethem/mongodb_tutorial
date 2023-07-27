@@ -1,0 +1,11 @@
+Mongodb notes
+
+
+Installation instructions and basic notes:
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+
+brew services start mongodb-community@6.0
+
+brew services stop mongodb-community@6.0
+
+

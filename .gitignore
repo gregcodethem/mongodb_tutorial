@@ -1,0 +1,5 @@
+.idea
+.python-version
+Pipfile
+Pipfile.lock
+.env
